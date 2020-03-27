@@ -2,7 +2,7 @@ require 'pry'
 
 def my_all?(collection)
   i = 0 
-  new_collection = [] 
+  block_return_values = [] 
   while i < collection.length 
     new_collection << yield(collection[i])
     i += 1 
